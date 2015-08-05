@@ -14,6 +14,7 @@
 		E20DAABC1B72061400AFA99F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20DAABA1B72061400AFA99F /* LaunchScreen.storyboard */; };
 		E20DAAC71B72061400AFA99F /* TestJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20DAAC61B72061400AFA99F /* TestJSONTests.swift */; };
 		E20DAAD21B72061400AFA99F /* TestJSONUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20DAAD11B72061400AFA99F /* TestJSONUITests.swift */; };
+		E20DAAE01B72067500AFA99F /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = E20DAADF1B72067500AFA99F /* test.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E20DAACD1B72061400AFA99F /* TestJSONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestJSONUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20DAAD11B72061400AFA99F /* TestJSONUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestJSONUITests.swift; sourceTree = "<group>"; };
 		E20DAAD31B72061400AFA99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E20DAADF1B72067500AFA99F /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		E20DAAB01B72061400AFA99F /* TestJSON */ = {
 			isa = PBXGroup;
 			children = (
+				E20DAADF1B72067500AFA99F /* test.json */,
 				E20DAAB11B72061400AFA99F /* AppDelegate.swift */,
 				E20DAAB31B72061400AFA99F /* ViewController.swift */,
 				E20DAAB51B72061400AFA99F /* Main.storyboard */,
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E20DAABC1B72061400AFA99F /* LaunchScreen.storyboard in Resources */,
+				E20DAAE01B72067500AFA99F /* test.json in Resources */,
 				E20DAAB91B72061400AFA99F /* Assets.xcassets in Resources */,
 				E20DAAB71B72061400AFA99F /* Main.storyboard in Resources */,
 			);
